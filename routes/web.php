@@ -25,9 +25,7 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/home/protected/user', 'UserController@index');
 
     Route::group(['middleware' => 'admin', 'auth'], function(){
-        Lang::setlocale('ru');
-        $l = Lang::getlocale();
-        echo $l;
+
         //тут роуты только для админа + авторизация
         Route::get('/home/protected/admin', 'AdminController@index');
     });
