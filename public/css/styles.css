@@ -1,0 +1,58 @@
+.page-header{
+    position: relative;
+    z-index: 5;
+    width: auto;
+    background-color: #c4c4c4;
+}
+.container-full{
+    width: 1180px;
+}
+.container-full{
+    margin: 0 auto;
+}
+.page-header__hero-img{
+    position: relative;
+    background-position: 27% 25%;
+}
+.hero-wrapper{
+    position: relative;
+    height: 100%;
+}
+.age-header__menu-bgr{
+    height: 100px;
+    opacity: .6;
+}
+.page-header__menu-bgr {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 80px;
+    width: 100%;
+    background-color: #292929;
+    opacity: 1;
+}
+.page-header__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.page-header__wrapper {
+    position: fixed;
+    z-index: 25;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+.container-header {
+    width: 1180px;
+    margin: 0 auto;
+}
